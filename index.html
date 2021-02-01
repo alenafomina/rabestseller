@@ -11,12 +11,13 @@
 
     <div class="wrapper">
         <header class="header">
-            <video class="header__video" autoplay loop controls>
-                <source src="files/bg.264"/>
-                <source src="files/bg.webm"/>
-                <source src="files/bg.mp4">
+            <video id="header__video" class="header__video" autoplay loop>
+                <source src="files/bg.264" type="bg.264"/>
+                <source src="files/bg.webm" type='video/webm; codecs="vp8, vorbis"'/>
+                <source src="files/bg.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
         </header>
     </div>
+    <script src="scripts/header.js"></script>
 </body>
 </html>
